@@ -10,7 +10,6 @@ struct myStruct{
         std::cout << dividend << '\n';
         //return (dividend % divisor == 0);
     }
-
 };
 
 int main() {
