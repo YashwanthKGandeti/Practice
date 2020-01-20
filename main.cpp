@@ -1,9 +1,7 @@
 #include <iostream>
-#include <thread>
-#include <memory>
 #include <vector>
 #include <algorithm>
-#include <list>
+
 
 template <typename T>
 struct myStruct{
