@@ -18,6 +18,5 @@ int main() {
     for_each(vec.begin(),vec.end(),myStruct<int>());
     return 0;
 }
-
-
+// Write Funciton Object
 
