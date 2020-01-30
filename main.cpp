@@ -2,13 +2,13 @@
 #include <vector>
 #include <algorithm>
 
-
+// Function Object
 template <typename T>
 struct myStruct{
     int divisor = 2;
     bool operator() (const T& dividend){
         std::cout << dividend << '\n';
-        //return (dividend % divisor == 0);
+        return (dividend % divisor == 0);
     }
 };
 
@@ -18,4 +18,6 @@ int main() {
     for_each(vec.begin(),vec.end(),myStruct<int>());
     return 0;
 }
+
+
 
